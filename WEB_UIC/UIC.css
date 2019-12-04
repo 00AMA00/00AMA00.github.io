@@ -1,0 +1,110 @@
+body{
+	background-image: url("BG2.jpg");
+	 background-size: cover;
+	background-repeat:no-repeat;
+}
+.logo{
+	width:215px;
+	height:210px;
+    position: absolute;
+    margin-left:41%;
+    margin-top: 0.5%;
+}
+.box{
+	width:600px;
+	height: 490px;
+	margin-top: 8%;
+	position: absolute;
+    margin-left:26.7%;
+    background-color: white;
+    opacity: 0.8;
+    box-shadow: 0px 5px 15px #888888;
+}
+.line1{
+	width:250px;
+	height: 1.2px;
+	background-color: black;
+    position: absolute;
+	margin-top: 55%;
+	margin-left: 5%;
+	opacity: 0.8;
+}
+.line2{
+	width:250px;
+	height: 1.2px;
+	background-color:black;
+    position: absolute;
+	margin-top: 55%;
+	margin-left: 55%;
+	opacity: 0.8;
+}
+.line1:hover{
+	background-color: #e70d55;
+	height: 1.5px;
+}
+.line2:hover{
+	background-color: #e70d55;
+	height: 1.5px;
+}
+.input{
+	font-size: 15px;
+	font-family: Roboto, sans-serif;
+	margin-top: -10%;
+	margin-left: 15%;
+
+}
+input::placeholder {
+    color: black;
+    text-align: center;
+}
+ input:focus{
+   border-color: inherit;
+        
+}
+
+.myUIC{
+    width:300px;
+	height:120px;
+    position: absolute;
+    margin-left:38%;
+    margin-top: 18%;
+}
+button {
+    border: 1px solid #e65b7a;
+    background-color: #e65b7a;
+    padding: 0px;
+    color: white;
+    box-shadow: 0px 5px 15px #888888;
+    border-radius: 2px;
+    width: 127px;
+    height: 50px;
+    font-family: Century Gothic;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 40%;
+    margin-top: 60%;
+    z-index: 3;
+    position: absolute;
+    transition-timing-function: ease-in;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #e5496b;
+}
+p{
+    position: absolute;
+    margin-top: 73%;
+    margin-left: 40%;
+    z-index: 1;
+    color: #039be5;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+p:hover {
+    cursor: pointer;
+}
